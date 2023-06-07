@@ -23,7 +23,7 @@ El agente toma decisiones de juego basándose en una función de utilidad, que i
 
 -Se definen los extremos de la serpiente (los números en los extremos de las fichas de dominó).
 
--Si es el turno del jugador, se le solicita ingresar un comando. El jugador puede pasar su turno escribiendo "pass", robar una ficha del stock escribiendo "robar" o colocar una ficha escribiendo el número correspondiente a la ficha en su mano.
+-Si es el turno del jugador, se le solicita ingresar un comando. El jugador puede pasar su turno escribiendo "pass", robar una ficha del stock escribiendo "robar" o colocar una ficha escribiendo el número correspondiente a la ficha en su mano, si desea colocar una ficha a la izquierda debe ingresarla con un signo menos (-número) y si desea colocar una ficha a la derecha debe ser un valor positivo.
 
 -Si el jugador coloca una ficha, se comprueba si es válida según los extremos de la serpiente (estado actual del juego) y se actualiza la serpiente y las fichas del jugador en consecuencia.
 
